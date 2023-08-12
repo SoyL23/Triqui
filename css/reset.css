@@ -1,0 +1,5 @@
+/* Elimina todos los estilos predeterminados de los navegadores */
+*{
+    all: unset;
+}
+      
