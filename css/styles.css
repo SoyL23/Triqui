@@ -1,9 +1,9 @@
 header{
-    max-height:15dvh;
+    min-height:15dvh !important;
 }
 main{
-    height: 70dvh;
+    min-height: 70dvh !important;
 }
 footer{
-    max-height:15dvh;
+    min-height:15dvh !important;
 }
