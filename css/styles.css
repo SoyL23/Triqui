@@ -40,3 +40,7 @@ a{
 #table_date_7, #table_date_8, #table_date_9{
     border-bottom: none !important;
 }
+
+td{
+    font-size: .5rem !important;
+}
