@@ -27,16 +27,21 @@
 
             </table>
                 <script src="controller/capturaClickEnTabla.js"></script>
+                <script src="controller/capturarJugador.js"></script>
             <?php
                 
             ?>
 
-            <div id="players" class="d-flex justify-content-evenly my-4 w-100">
-                <div class="w-25 border border-primary p-3 text-center bg-success bg-gradient text-white">
-                    <h2>Player 1</h2>
+            <div class="d-flex justify-content-evenly my-4 w-100">
+                <div id="player1" class="w-25 border border-primary p-3 text-center bg-success bg-gradient text-white">
+                    <div class="players">
+
+                    </div>
                 </div>
-                <div class="w-25 border border-primary p-3 text-center bg-success bg-gradient text-white">
-                    <h2>Player 2</h2>
+                <div id="player2" class="w-25 border border-primary p-3 text-center bg-success bg-gradient text-white">
+                    <div class="players">
+                        
+                    </div>
                 </div>
             </div>
 
