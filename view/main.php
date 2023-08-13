@@ -26,8 +26,10 @@
                 </tr>
 
             </table>
+                <script src="controller/capturaClickEnTabla.js"></script>
+            <?php
                 
-            <script src="controller/capturaClickEnTabla.js"></script>
+            ?>
 
             <div id="players" class="d-flex justify-content-evenly my-4 w-100">
                 <div class="w-25 border border-primary p-3 text-center bg-success bg-gradient text-white">

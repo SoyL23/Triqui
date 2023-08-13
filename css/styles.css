@@ -16,3 +16,27 @@ footer{
 #players{
     width: 250px, auto !important;
 }
+a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+#table_date_1, #table_date_7, #table_date_4{
+    border-left: none !important;
+}
+
+#table_date_3,#table_date_9, #table_date_6{
+    border-right: none !important;
+}
+
+#table_date_1, #table_date_3, #table_date_2{
+    border-top: none !important;
+}
+
+#table_date_7, #table_date_8, #table_date_9{
+    border-bottom: none !important;
+}
