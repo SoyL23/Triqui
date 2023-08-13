@@ -3,7 +3,16 @@ header{
 }
 main{
     min-height: 70dvh !important;
+    min-width: 95dvw !important;
 }
+/* 
+section{
+    min-width: 75% !important;
+} */
 footer{
     min-height:15dvh !important;
+}
+
+#players{
+    width: 250px, auto !important;
 }
