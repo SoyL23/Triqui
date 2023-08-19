@@ -20,22 +20,24 @@ const indicesAfectados = [];
 tableDate.forEach((td, index) => {
     td.addEventListener('click', (evento) => {
         const Idtable = evento.target.id;
-        ocuparCasilla(Idtable, index);
-        console.log(indicesAfectados.length, indicesAfectados);
+        ocuparCasilla(Idtable, index, tableDate.index);
     });
 });
 
-function ocuparCasilla(id, index) {
+function ocuparCasilla(id, index, tableDate) {
     let idModificar = id;
     const casilla = document.getElementById(idModificar);
-
-    if (!indicesAfectados.includes(index)) {
-        indicesAfectados.push(index);
-    }
-    if(indicesAfectados.length % 2 == 0){
-        casilla.innerHTML = "O";
-    }
-    else{
-        casilla.innerHTML = "X";
-    }
+    console.log(idModificar)
+        if (indicesAfectados.includes(index)) {
+            indicesAfectados.push(index);
+        }
+        if(indicesAfectados.length % 2 === 0){
+            casilla.innerHTML = "O";
+        }
+        else if (indicesAfectados.length % 2 !== 0){
+            casilla.innerHTML = "X";
+        }
+    // return indicesAfectados;
+    console.log(tableDate)
+    console.log(indicesAfectados);
 }

@@ -1,5 +1,5 @@
 //El evento DOMContentLoaded asegura que tu JavaScript se ejecute después de que se haya cargado el DOM
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", () => {
     let nombreJugador1 = prompt("Nombre Jugador 1");
     let nombreJugador2 = prompt("Nombre Jugador 2");
     agregarNombre(nombreJugador1);
